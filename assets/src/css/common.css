@@ -1,18 +1,11 @@
-/* フロント&エディター共通 */
 .content-area {
     @mixin clearfix;
     max-width: var(--content-width);
 }
 
-/* フロント専用 */
 @media (--sm-max) {
     .site-header {
         padding: 1rem;
-        color: --primary-color;
+        background-color: var(--primary-color);
     }
-}
-
-/* エディター専用 */
-body.block-editor-page .editor-styles-wrapper {
-    background: #f8f9ff;
 }
