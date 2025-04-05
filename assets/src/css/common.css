@@ -8,6 +8,7 @@
 @media (--sm-max) {
     .site-header {
         padding: 1rem;
+        color: --primary-color;
     }
 }
 
