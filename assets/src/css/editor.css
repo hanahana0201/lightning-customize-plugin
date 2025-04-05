@@ -1,0 +1,6 @@
+@import "variables.css";
+@import "mixins.css";
+
+.editor-styles-wrapper {
+    @nested-import "./common.css";
+}
